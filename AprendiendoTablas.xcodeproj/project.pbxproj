@@ -13,6 +13,8 @@
 		D0610E9924C7636500D640B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0610E9724C7636500D640B2 /* Main.storyboard */; };
 		D0610E9B24C7636C00D640B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0610E9A24C7636C00D640B2 /* Assets.xcassets */; };
 		D0610E9E24C7636C00D640B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0610E9C24C7636C00D640B2 /* LaunchScreen.storyboard */; };
+		D0610EA824C76B0E00D640B2 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0610EA624C76B0E00D640B2 /* TweetTableViewCell.swift */; };
+		D0610EA924C76B0E00D640B2 /* TweetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0610EA724C76B0E00D640B2 /* TweetTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D0610E9A24C7636C00D640B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0610E9D24C7636C00D640B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0610E9F24C7636C00D640B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0610EA624C76B0E00D640B2 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		D0610EA724C76B0E00D640B2 /* TweetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		D0610E9024C7636500D640B2 /* AprendiendoTablas */ = {
 			isa = PBXGroup;
 			children = (
+				D0610EA524C76AB900D640B2 /* Cell */,
 				D0610E9124C7636500D640B2 /* AppDelegate.swift */,
 				D0610E9324C7636500D640B2 /* SceneDelegate.swift */,
 				D0610E9524C7636500D640B2 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				D0610E9F24C7636C00D640B2 /* Info.plist */,
 			);
 			path = AprendiendoTablas;
+			sourceTree = "<group>";
+		};
+		D0610EA524C76AB900D640B2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D0610EA624C76B0E00D640B2 /* TweetTableViewCell.swift */,
+				D0610EA724C76B0E00D640B2 /* TweetTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +142,7 @@
 				D0610E9E24C7636C00D640B2 /* LaunchScreen.storyboard in Resources */,
 				D0610E9B24C7636C00D640B2 /* Assets.xcassets in Resources */,
 				D0610E9924C7636500D640B2 /* Main.storyboard in Resources */,
+				D0610EA924C76B0E00D640B2 /* TweetTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +156,7 @@
 				D0610E9624C7636500D640B2 /* ViewController.swift in Sources */,
 				D0610E9224C7636500D640B2 /* AppDelegate.swift in Sources */,
 				D0610E9424C7636500D640B2 /* SceneDelegate.swift in Sources */,
+				D0610EA824C76B0E00D640B2 /* TweetTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
